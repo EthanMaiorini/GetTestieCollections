@@ -15,4 +15,34 @@ public class AppTest {
     public void testApp() {
         assertTrue(true);
     }
+
+    @Test
+    public void vectorTest() {
+        assertTrue(true);
+    }
+
+    @Test
+    public void treemapTest() {
+        assertTrue(true);
+    }
+
+    @Test
+    public void treesetTest() {
+        assertTrue(true);
+    }
+
+    @Test
+    public void iteratorTest() {
+        assertTrue(true);
+    }
+
+    @Test
+    public void priorityQueTest() {
+        assertTrue(true);
+    }
+
+    @Test
+    public void comparableTest() {
+        assertTrue(true);
+    }
 }

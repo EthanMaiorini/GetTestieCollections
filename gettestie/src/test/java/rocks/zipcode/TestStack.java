@@ -21,4 +21,20 @@ public class TestStack {
     }
 
     // Make a bigger test exercising more Stack methods.....
+    @org.junit.Test
+    public void TestStack2() {
+        Stack<String> stack = new Stack<>();
+        stack.push("Hello world");
+        String result = (stack.peek());
+        assertEquals(false, stack.isEmpty()); // false
+        assertEquals("Hello world", result);
+    }
+
+    @org.junit.Test
+    public void TestStack3() {
+        Stack<String> stack = new Stack<>();
+        stack.push("Hello world");
+        stack.pop();
+        assertEquals(true, stack.isEmpty()); // false
+    }
 }
